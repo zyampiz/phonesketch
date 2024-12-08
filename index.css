@@ -1,0 +1,40 @@
+
+
+
+
+.padre{ 
+    display: flex;
+    justify-content: space-between;
+    
+    
+    background-image: url(images/glovo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/*--------------contenido---------------*/
+body{
+    background-color: #434040;
+    
+    
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.apps1, .apps2{
+    flex: 1; /* Establece un contenedor flexible */
+    justify-content: space-between; /* Espacio entre las columnas */
+    
+    
+}
+
+
+img{
+    border-radius: 20px;
+}
+
+
+
